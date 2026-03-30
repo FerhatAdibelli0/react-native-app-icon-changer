@@ -52,7 +52,7 @@ class AppIconChangerModule(
 
     @ReactMethod
     fun getActiveIcon(promise: Promise) {
-        val activity: Activity? = currentActivity
+        val activity: Activity? = reactApplicationContext.currentActivity
         if (activity == null) {
             promise.reject("ACTIVITY_NOT_FOUND", "Activity was not found")
             return
@@ -127,7 +127,7 @@ class AppIconChangerModule(
         isChangingIcon = true
         
         try {
-            val activity = currentActivity
+            val activity = reactApplicationContext.currentActivity
             if (activity == null) {
                 Log.w(TAG, "Activity is null, cannot complete icon change")
                 return
@@ -177,7 +177,7 @@ class AppIconChangerModule(
     @ReactMethod
     @Synchronized
     fun setIcon(iconName: String?, promise: Promise) {
-        val activity = currentActivity
+        val activity = reactApplicationContext.currentActivity
         if (activity == null) {
             promise.reject("ACTIVITY_NOT_FOUND", "The activity is null. Check if the app is running properly.")
             return
