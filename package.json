@@ -1,6 +1,6 @@
 {
   "name": "react-native-app-icon-changer",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "react-native-app-icon-changer is a tool for easily updating the app icon of your React Native project for both iOS and Android platforms. This package simplifies the process of changing the default app icon without needing to manually modify platform-specific assets or configurations. It automates the generation of required icon sizes and updates the necessary files in your project, making the process quick and seamless.",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
