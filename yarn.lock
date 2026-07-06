@@ -1359,7 +1359,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.25.2, @babel/preset-env@npm:^7.25.3":
+"@babel/preset-env@npm:^7.25.2":
   version: 7.26.0
   resolution: "@babel/preset-env@npm:7.26.0"
   dependencies:
@@ -2864,29 +2864,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/metro-config@npm:0.76.5":
-  version: 0.76.5
-  resolution: "@react-native/metro-config@npm:0.76.5"
-  dependencies:
-    "@react-native/js-polyfills": 0.76.5
-    "@react-native/metro-babel-transformer": 0.76.5
-    metro-config: ^0.81.0
-    metro-runtime: ^0.81.0
-  checksum: afdd47fe403d30bf29961e4e3271f16cbd2170150d6c516aeb6018846f6d1bd71e1eca0a7548c90b9ce847c7a7a256971b96b172edc4840a8cb5dd1226bb6d43
-  languageName: node
-  linkType: hard
-
 "@react-native/normalize-colors@npm:0.76.5":
   version: 0.76.5
   resolution: "@react-native/normalize-colors@npm:0.76.5"
   checksum: 88758b7cbed118c520ab1d5ebad37198527aa98b503fe003d956059fff9171c22e248a1b227ab87a02be574080271900e03ac71fdc3f1233c3ca4e5a6c6746b7
-  languageName: node
-  linkType: hard
-
-"@react-native/typescript-config@npm:0.76.5":
-  version: 0.76.5
-  resolution: "@react-native/typescript-config@npm:0.76.5"
-  checksum: d4ce87d4773025d53315405685e07986db125615319c5c847b7debaf1ee1870a094d7be1892755fb482ee2fb278f6074148ece1d091448291a43580561626ddc
   languageName: node
   linkType: hard
 
@@ -4189,9 +4170,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001688":
-  version: 1.0.30001690
-  resolution: "caniuse-lite@npm:1.0.30001690"
-  checksum: f2c1b595f15d8de4d9ccd155d61ac9f00ac62f1515870505a0186266fd52aef169fcddc90d8a4814e52b77107244806466fadc2c216662f23f1022a430e735ee
+  version: 1.0.30001802
+  resolution: "caniuse-lite@npm:1.0.30001802"
+  checksum: 20826723242a66c226586423286f3a1c8c014e7e1102d38bbfd656ed84e691cff62782e7b1e92463d765dd96ff37401fd335b571652de60d2a8be58fecedacad
   languageName: node
   linkType: hard
 
@@ -10562,25 +10543,6 @@ __metadata:
   checksum: e20fe84c86ff172fc8d898251b7cc2c43645d108bf96d0b8edf39b98f9a2cae97b40520ee7ed8ee0085ccc94736c4886294456033304151c3f94978cec03df21
   languageName: node
   linkType: hard
-
-"react-native-app-icon-changer-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "react-native-app-icon-changer-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.25.2
-    "@babel/preset-env": ^7.25.3
-    "@babel/runtime": ^7.25.0
-    "@react-native-community/cli": 15.0.1
-    "@react-native-community/cli-platform-android": 15.0.1
-    "@react-native-community/cli-platform-ios": 15.0.1
-    "@react-native/babel-preset": 0.76.5
-    "@react-native/metro-config": 0.76.5
-    "@react-native/typescript-config": 0.76.5
-    react: 18.3.1
-    react-native: 0.76.5
-    react-native-builder-bob: ^0.32.0
-  languageName: unknown
-  linkType: soft
 
 "react-native-app-icon-changer@workspace:.":
   version: 0.0.0-use.local
